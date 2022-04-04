@@ -258,12 +258,54 @@ footer{
     background-color: blue;
 }
 .box4{
-    border: 2px solid saddlebrown ;    
+    /* border: 2px solid saddlebrown ;     */
     height: 19rem;
     width: 30rem;
     float: right;
     position: relative;
     margin-top: -16.5rem;
     margin-right: 3rem;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns: repeat( minmax( 100%,1fr)); */
 }   
+.card{
+    /* border: 3px solid orange; */
+    background-color: black;
+    box-shadow: 2px 1px rgb(77, 45, 45);
+    padding-left: 5px;
+}
+.icon{
+    /* height: 30px;
+    width: 30px;
+    border-radius: 50%; */
+    /* border: 1px solid rgb(32, 30, 18); */
+    color: white;
+    margin: 14px;
+   
+   
+
+}
+.icon i{
+    text-align: center;
+}
+.field-name{
+    color: white;
+    
+}
+.field-name h4{
+    text-decoration: underline;
+}
+.field-summary{
+    color: white;
+    font-size: 13px;
+    margin-top:9px;
+}
 /* end of part1 styles */
+
+/* Part2 styles */
+.part2{
+    height:10rem;
+}
+/* end of part2 styles */
