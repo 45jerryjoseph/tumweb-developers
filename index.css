@@ -1,0 +1,220 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    padding: 0;
+}
+/* headers styles */
+header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    /* border: 2px solid seagreen; */
+    height: 10vh;
+    max-height: 100vh;
+    background-color: black;
+    opacity: 0.9;
+}
+main{
+    padding-top: 4rem;
+}
+.mode-container{
+    flex: 4%;
+    /* border: 2px solid black; */
+}
+.org-name-container{
+    flex: 16%;
+    /* border: 2px solid red; */
+}
+.nav-container{
+    flex: 60%;
+    
+    /* float: right; */
+    /* border: 2px solid yellow; */
+ 
+}
+.fa-caret-down{
+    color: white;
+    padding-left: 9px;
+    align-items: center;
+    justify-content: center;
+}
+.reg-container{
+    flex: 20%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mode{
+   
+    /* border: 1px solid black; */
+    /* background-color: blueviolet; */
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 15%;
+    padding: 0.9rem;
+    position: absolute;
+    background-color: whitesmoke;
+    
+}
+.org_name{
+    margin-left: 4rem;
+    background-color: blue;
+    padding-left: 1.9rem;
+    padding-right:1.9rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius:40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+}
+.navigator{
+    float: right;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.navigator ul{
+    display: flex;
+    
+    
+}
+.navigator ul li{
+    flex: 1;
+    list-style: none;
+    /* margin-top: 5px; */
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* border: 3px solid grey; */
+    text-align: center;
+    
+    
+}
+.navigator ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+}
+.navigator ul li ul li{
+    display: none;
+}
+.registration-sign{
+    /* border: 2px solid purple; */
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: blue;
+}
+.registration-log{
+    /* border: 2px solid darkgreen; */
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: blue;
+}
+.registration-log a ,.registration-sign a{
+    color: black;
+    text-decoration: none;
+}
+/* end of header styles */
+
+
+/* footer styles */
+footer{
+    background-color: rgb(54, 54, 56);
+    height: auto;
+    border: 2px solid rgb(54, 54, 56);
+   
+}
+.upper-footer{
+    display: flex;
+    margin: 6rem;
+
+}
+.upper-footer-1{
+    flex: 1;
+    padding-right: 5rem;
+    /* border: 3px solid blue; */
+    
+}
+.upper-footer-1 p{
+    color: white;
+}
+.upper-footer-1 h5{
+    color: white;
+}
+.cont-icons{
+    margin-top: 1rem;
+    
+}
+.cont-icons a{
+    text-decoration: none;
+    color: black;
+}
+.cont-icons i{
+    padding: 7px;
+    font-size:larger;
+}
+.copr{
+    margin-top: 4rem;
+    color: white;
+}
+.upper-footer-2 ,.upper-footer-3 ,.upper-footer-4{
+    flex: 1;
+    /* border: 2px solid green; */
+  
+}
+.upper-footer-2 h3 a ,.upper-footer-3 h3 a ,.upper-footer-4 h3 a{
+    color: white;
+    text-decoration: none;
+}
+.upper-footer-2 ul li  ,.upper-footer-3 ul li ,.upper-footer-4 ul li {
+    color: white;
+    list-style: none;
+    padding: 3px;
+}
+.upper-footer-2 ul li a ,.upper-footer-3 ul li a ,.upper-footer-4 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* end of footer styles */
+
+
+/* part1 styles */
+.part1{
+    border: 3px solid red;
+}
+.welcome{
+    border: 2px solid purple;
+}
+.box1{
+    border: 2px solid  violet;
+}
+.box2{
+    border: 2px solid green;
+}
+.box3{
+    border: 2px solid yellow;
+}
+.box3-left{
+    border: 2px dotted darkblue;
+}
+.box3-right{
+    border: 2px solid rgb(40, 20, 220);
+}
+.box4{
+    border: 2px solid saddlebrown ;    
+}   
+/* end of part1 styles */
