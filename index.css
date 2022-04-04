@@ -18,6 +18,7 @@ header{
 }
 main{
     padding-top: 4rem;
+    background-color: rgb(14, 3, 3);
 }
 .mode-container{
     flex: 4%;
@@ -194,27 +195,75 @@ footer{
 
 /* part1 styles */
 .part1{
-    border: 3px solid red;
+    /* border: 3px solid red; */
+    padding: 3rem;
 }
 .welcome{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
+    width: 4rem;
+    text-align: center;
+    border-radius: 5px ;
+    box-shadow: 1px 2px rgb(121, 4, 4);
+    margin-left: 4rem;
+    margin-bottom: 5px;
+    color:white;
 }
 .box1{
-    border: 2px solid  violet;
+    /* border: 2px solid  violet; */
+    padding-left:5rem;
+    /* padding-top: 3px;
+    padding-bottom: 3px; */
+    font-size: 29px;
+    height: 4rem;
+    border-bottom-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+    background-color: blue;
+    color:white;
 }
 .box2{
-    border: 2px solid green;
+    /* border: 2px solid green; */
+    height: 4rem;
+    width: 20rem;
+    margin-left: 4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:white;
 }
 .box3{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+    display: flex;
 }
 .box3-left{
-    border: 2px dotted darkblue;
+    /* border: 2px dotted darkblue; */
+    flex: 45%;
+    padding-left: 4rem;
+    padding-top: 20px;
+}
+.box3-left button{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: blue;
+}
+.box3-left button a{
+    text-decoration: none;
+    color: white;
 }
 .box3-right{
-    border: 2px solid rgb(40, 20, 220);
+    /* border: 2px solid rgb(40, 20, 220); */
+    flex: 55%;
+    height: 4rem;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    background-color: blue;
 }
 .box4{
     border: 2px solid saddlebrown ;    
+    height: 19rem;
+    width: 30rem;
+    float: right;
+    position: relative;
+    margin-top: -16.5rem;
+    margin-right: 3rem;
 }   
 /* end of part1 styles */
