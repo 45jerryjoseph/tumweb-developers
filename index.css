@@ -471,3 +471,101 @@ footer{
 
 
 /* End of part3 styles */
+
+/* Part4 Styles */
+.part4{
+    /* border: 3px solid red; */
+
+    padding: 3rem;
+}
+.events{
+    /* border: 2px solid purple; */
+
+    width: 6rem;
+    text-align: center;
+    border-radius: 5px ;
+    box-shadow: 1px 2px rgb(121, 4, 4);
+    margin-left: 4rem;
+    margin-bottom: 5px;
+    color:white;
+}
+.e1{
+    /* border: 2px solid  violet; */
+
+    padding-left:5rem;
+    /* padding-top: 3px;
+    padding-bottom: 3px; */
+    font-size: 29px;
+    height: 4rem;
+    border-bottom-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+    background-color: blue;
+    color:white;
+}
+.e2{
+    /* border: 2px solid green; */
+
+    /* height: 10rem; */
+    width: 20rem;
+    margin-left: 4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:white;
+}
+.e3{
+    /* border: 2px solid yellow; */
+    /* width: 17rem; */
+    height: 20rem;
+    display: block;
+    padding-left: 2.5rem;
+}
+.e3-card i{
+    padding: 1rem;
+    color: blue;
+    font-size: larger;
+    
+}
+.e3-card {
+    /* padding: 2rem; */
+    /* border: 2px solid purple; */
+    display: flex;
+    margin-right: 8px;
+    margin-top: 9px;
+    height: 8rem;
+    box-shadow: 1px 3px rgb(53, 11, 11);
+
+}
+.e3-right{
+    margin-left: 4px;
+    color: white;
+}
+.e3-right h4{
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-bottom: 5px;
+}
+.e3-right p{
+    font-size: 12px;
+    padding-top: 13px;
+    padding-bottom: 5px;
+
+}
+
+/* .e4{
+    border: 2px solid saddlebrown ;    
+
+    height: 23rem;
+    width: 20rem;
+    float: right;
+    position: relative;
+    margin-top: -21rem;
+    margin-right: 3rem;
+    object-fit: contain;
+    object-position: center;
+    background-image: url(images/pica.jpg);
+}   */
+/* End of Part4 Styles */
+/* part5 styles */
+
+/* End of part5 styles */
