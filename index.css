@@ -567,5 +567,50 @@ footer{
 }   */
 /* End of Part4 Styles */
 /* part5 styles */
+.part5{
+    /* border: 3px solid red; */
 
+    padding: 3rem;
+}
+.patners{
+    /* border: 2px solid purple; */
+
+    width: 6rem;
+    text-align: center;
+    border-radius: 5px ;
+    box-shadow: 1px 2px rgb(121, 4, 4);
+    margin-left: 32rem;
+    margin-bottom: 5px;
+    align-items: center;
+    color:white;
+}
+.part5 h2{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    color: white;
+}
+.patners-card{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: rgb(61, 14, 14);
+    align-items: center;
+    margin-top:12px;
+    margin-bottom: 4rem;
+    /* justify-items: center; */
+}
+.patners-card-name{
+    display: inline-flex;
+    border-right: 1px solid rgb(124, 24, 24);
+}
+.patners-card-name i{
+    font-size: 2rem;
+    color: white;
+    padding: 8px;
+}
 /* End of part5 styles */
+/* Part6 Styles */
+
+/* End of part6 Styles */
