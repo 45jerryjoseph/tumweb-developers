@@ -10,6 +10,11 @@ function Changer(){
     const projects = document.getElementById('projects');
     const events = document.getElementById('events');
     const home = document.getElementById('home');
+    const card = document.getElementsByClassName('card');
+    // const part = document.getElementById('part6');
+    const head4 = document.querySelectorAll('h4');
+    const images = document.querySelectorAll('i');
+
     home.classList.toggle('color');
     
 
@@ -23,11 +28,24 @@ function Changer(){
     for(let k=0; k < tag.length; ++k){
         tag[k].classList.toggle('color');
     }
+    for(let l=0; l < card.length; ++l){
+        card[l].classList.toggle('active');
+    }
+    for(let m=0; m < head4.length; ++m){
+        head4[m].classList.toggle('active');
+    }
+    for(let n=0; n < images.length; ++n){
+        images[n].classList.toggle('color');
+    }
+    // part.classList.toggle('color');
+
+
+
     main.classList.toggle('active');
-    welcome.classList.toggle('color');
-    feature.classList.toggle('color');
-    projects.classList.toggle('color');
-    events.classList.toggle('color');  
+    welcome.classList.toggle('active');
+    feature.classList.toggle('active');
+    projects.classList.toggle('active');
+    events.classList.toggle('active');  
 
 }
 // seems ive forgot alot on there interactions start from here now.

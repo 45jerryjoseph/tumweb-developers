@@ -705,7 +705,7 @@ footer{
 /* light and dark feature */
 .active{
     background-color: white;
-    
+    color: black;
 }
 .color{
     color: black;
