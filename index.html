@@ -12,12 +12,12 @@
 </head>
 <body>
     <!-- header section -->
-    <header>
+    <header id="header">
         <!-- light & dark -->
         <div class="mode-container">
-            <div class="mode">
+            <button onclick= "Changer()"  class="mode" id="mode">
 
-            </div>
+            </button>
         </div>
         <!-- organisation name -->
         <div class="org-name-container">
@@ -32,11 +32,11 @@
 
             <nav class="navigator">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a>
+                    <li><a href="#" id="home">Home</a></li>
+                    <li><a href="#">About</a>
                     <!-- a font awsome pic for dropdown -->
                     </li>
-                    <li><a href="">Media <span><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+                    <li><a href="#">Media <span><i class="fa fa-caret-down" aria-hidden="true" id="down_sign"></i></span></a>
                      <!-- a font awsome pic for dropdown -->
                      
                     
@@ -49,7 +49,7 @@
                          <li><a href="">WWWWWWWW</a></li>
                      </ul>
                     </li>
-                    <li><a href="">Blogs<span><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+                    <li><a href="">Blogs<span><i class="fa fa-caret-down" aria-hidden="true" id="down_sign"></i></span></a>
                      <!-- a font awsome pic for dropdown -->
                      <ul>
                         <li><a href="">UI/UX </a></li>
@@ -81,7 +81,7 @@
     <main>
         <!-- first part of main -->
        <div class="part1">
-            <div class="welcome">
+            <div class="welcome" id="welc">
                 <h6>Welcome</h6>
             </div>
             <div class="box1">
@@ -172,7 +172,7 @@
        <hr>
        <!-- 2nd part of main -->
        <div class="part2">
-            <div class="feature">
+            <div class="feature" id="feature">
                 <h6>Features</h6>
             </div>
             <div class="c1">
@@ -199,7 +199,7 @@
        <hr>
        <!-- 3rd Part of Main -->
        <div class="part3">
-            <div class="projects">
+            <div class="projects" id="projects">
                 <h6>projects</h6>
             </div>
             <div class="d1">
@@ -238,7 +238,7 @@
        <hr>
        <!-- part4 section -->
        <div class="part4">
-            <div class="events">
+            <div class="events" id="events">
                 <h6>Upcoming Events</h6>
             </div>
             <div class="e1">
@@ -273,7 +273,7 @@
        <hr>
        <!-- Part 5 Section -->
        <div class="part5">
-           <div class="patners">
+           <div class="patners" id="patners">
                <p>Patners</p>
            </div>
            <h2>Our Patners.</h2>
@@ -302,7 +302,7 @@
        </div>
        <hr>
        <div class="part6">
-            <div class="faq">
+            <div class="faq" id="faq">
                 <p>FAQ</p>
             </div>
             <h2>Our Mission and Vision</h2>

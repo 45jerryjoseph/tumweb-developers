@@ -80,6 +80,7 @@ main{
     justify-content: center;
     align-items: center;
     padding-left: 20px;
+    color: rgb(17, 0, 255);
 }
 
 .navigator ul{
@@ -105,8 +106,18 @@ main{
     display: inline-flex;
     align-items: center;
 }
+.navigator ul li ul{
+    display: block;
+    /* width: 3rem; */
+    background-color: black;
+    border: 1px solid red;
+}
 .navigator ul li ul li{
     display: none;
+    padding: 6px;
+}
+.navigator ul li:hover ul li{
+    display: inline-block;
 }
 .registration-sign{
     /* border: 2px solid purple; */
@@ -690,3 +701,14 @@ footer{
 
 }
 /* End of part6 Styles */
+
+/* light and dark feature */
+.active{
+    background-color: white;
+    
+}
+.color{
+    color: black;
+   
+}
+/* end of light and dark feature */
