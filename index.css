@@ -27,6 +27,8 @@ main{
 }
 .org-name-container{
     flex: 16%;
+    position: absolute;
+    margin-left: 5rem;
     /* border: 2px solid red; */
 }
 .nav-container{
@@ -35,6 +37,19 @@ main{
     /* float: right; */
     /* border: 2px solid yellow; */
  
+}
+#navigator_bar{
+    /* margin: 4px;
+    float: right;
+    cursor:grabbing; */
+    display: none;
+}
+.fa-bars{
+    color: blue;
+    font-size: 1.5rem;
+    padding: 3px;
+    
+
 }
 .fa-caret-down{
     color: white;
@@ -75,18 +90,26 @@ main{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
 }
+.nav-container{
+    position: relative;
+    border-radius: 6px solid rgb(68, 0, 255);
+    /* background-color: blue; */
+    margin-left: 18rem;
+}
 .navigator{
     float: right;
     justify-content: center;
     align-items: center;
-    padding-left: 20px;
-    color: rgb(17, 0, 255);
+    padding-left: 2px;
+    /* background-color: red; */
+    
+    /* color: rgb(17, 0, 255); */
 }
 
 .navigator ul{
     display: flex;
     
-    
+   
 }
 .navigator ul li{
     flex: 1;
@@ -105,6 +128,7 @@ main{
     color: white;
     display: inline-flex;
     align-items: center;
+   /* background-color: yellow; */
 }
 .navigator ul li ul{
     display: block;
@@ -118,7 +142,14 @@ main{
 }
 .navigator ul li:hover ul li{
     display: inline-block;
+    
+    /* padding: 2px; */
 }
+.navigator ul li:hover ul{
+    margin-left: 0px;
+    margin-right:0px;
+}
+
 .registration-sign{
     /* border: 2px solid purple; */
     padding: 10px;
@@ -206,6 +237,7 @@ footer{
 
 
 /* part1 styles */
+
 .part1{
     /* border: 3px solid red; */
     padding: 3rem;
@@ -320,6 +352,7 @@ footer{
 .part2{
     /* border: 3px solid red; */
     padding: 3rem;
+    
 }
 .feature{
     /* border: 2px solid purple; */
@@ -712,3 +745,179 @@ footer{
    
 }
 /* end of light and dark feature */
+/* sidenav style */
+.sidenav{
+    border: 2px solid green;
+    height: 100%;
+    width: 10rem;
+}
+/* end of sidenav styles */
+
+/* media queries */
+@media  (max-width:768px) {
+    .navigator{
+        /* display: none; */
+        float: left;
+        z-index: 4;
+    }
+    #navigator_bar{
+        display: inline;
+        margin: 7px;
+        cursor:grabbing;
+        margin-top: 10px;
+        background-color: black;
+        /* float: left; */
+        /* border: 2px solid green; */
+    }
+    .fa-bars{
+        color: blue;
+        font-size: 1.5rem;
+        padding: 3px;
+        /* background-color: black; */
+ 
+    }
+    .org-name-container{
+        position: absolute;
+        /* height: 100vh; */
+        /* border: 2px solid red; */
+    }
+    .registration{
+        position: absolute;
+    }
+    .registration-log  ,.registration-sign {
+        position: relative;
+        padding: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 10px;
+        background-color: blue;
+        /* font-size: small; */
+    }
+    .registration-log a ,.registration-sign a{
+        color: black;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigator{
+        padding-left: 2px;
+        margin-top: 10vh;
+        float: left;
+    }
+    .navigator ul{
+        /* display: grid; */
+        display: none;
+        grid-template-rows: repeat(1,1fr);
+        grid-gap:1px;
+        padding-right: 4px;
+        /* justify-content: center; */
+        
+        
+    }
+    .navigator ul li{
+        padding-left:2px;
+        padding-right: 2px;
+        text-align: center;
+    }
+    .box4{
+        height: 19rem;
+        width: 30rem;
+        /* float: right; */
+        position: relative;
+        margin-top: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 3rem;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .feature{
+        margin-top: 20rem;
+    }
+    .c4{
+        /* border: 2px solid saddlebrown ;     */
+        height: 23rem;
+        width: 24rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        /* float: right; */
+        position: relative;
+        /* margin-top: 3rem; */
+        margin-left: 3rem;
+        right: 50%;
+        transform: translateX(50%);
+        /* object-fit: contain;
+        object-position: center;
+        background-image: url(images/pica.jpg); */
+    } 
+    .projects{
+        margin-top: 23rem;
+        margin-left: 16rem;
+    }  
+    .d4{
+        height: 23rem;
+        width: 24rem;
+        /* float: left; */
+        margin-left: 3rem;
+        position: relative;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        left: 50%;
+        transform: translateX(-50%);
+        /* object-fit: contain;
+        object-position: center;
+        background-image: url(images/picb.jpg); */
+    }
+    .d2{
+        /* border: 2px solid green; */
+        height: 8rem;
+        width: 20rem;
+        text-align: center;
+        /* after i put width to 100% try putting the words respnsive */
+        margin-left: 10rem;
+        /* display: flex; */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color:white;
+    }
+    .d3-left{
+        /* border: 2px dotted darkblue; */
+        flex: 0;
+        
+    }
+    
+    .d3-right{
+        /* border: 2px solid rgb(40, 20, 220); */
+        flex: 100%;
+        margin-left: 7rem;
+        padding-top: 5px;
+        color: white;
+        display: grid;
+        grid-gap: 7px;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .patners{
+        /* border: 2px solid purple; */
+    
+        /* width: 6rem;
+        text-align: center;
+        border-radius: 5px ;
+        box-shadow: 1px 2px rgb(121, 4, 4); */
+        margin-left: 17rem;
+        /* margin-bottom: 5px;
+        align-items: center;
+        color:white; */
+    }
+    .faq{
+        margin-left: 17rem;
+    }
+    .sector{
+        width: 40rem;
+        margin-left: 2rem;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

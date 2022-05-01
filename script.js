@@ -37,6 +37,8 @@ function Changer(){
     for(let n=0; n < images.length; ++n){
         images[n].classList.toggle('color');
     }
+
+    
     // part.classList.toggle('color');
 
 
@@ -46,6 +48,9 @@ function Changer(){
     feature.classList.toggle('active');
     projects.classList.toggle('active');
     events.classList.toggle('active');  
+   
+
+   
 
 }
 // seems ive forgot alot on there interactions start from here now.
