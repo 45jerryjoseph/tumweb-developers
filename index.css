@@ -910,6 +910,21 @@ footer{
         align-items: center;
         color:white; */
     }
+    .patners-card{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3,1fr);
+        background-color: inherit;
+        /* align-items: center;
+        margin-top:12px;
+        margin-bottom: 4rem; 
+         justify-items: center; */
+    }
+    .patners-card-name{
+        display: inline-flex;
+        border: 1px solid rgb(124, 24, 24);
+        box-shadow: 1px 2px maroon;
+    }
     .faq{
         margin-left: 17rem;
     }
@@ -921,3 +936,151 @@ footer{
         grid-template-columns: repeat(2,1fr);
     }
 }
+@media (max-width:736.36px){
+    .sector{
+        width: 28rem;
+        margin-left: 2rem;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .patners{
+        margin-left: 15rem;
+    }
+    .faq{
+        margin-left: 15rem;
+    }
+}
+@media(max-width:633.33px){
+    .box4{
+        height: 38rem;
+        width: 27rem;
+        /* float: right; */
+        position: relative;
+        margin-top: 3rem;
+        margin-right: 0rem;
+        margin-bottom: 6rem;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .feature{
+        margin-top: 41rem;
+    }
+}
+@media (max-width: 575.98px) { 
+    .registration-log ,.registration-sign {
+        display: none;
+    }
+    .box4{
+        height: 38rem;
+        width: 27rem;
+        /* float: right; */
+        position: relative;
+        margin-top: 3rem;
+        margin-right: 0rem;
+        margin-bottom: 6rem;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .feature{
+        margin-top: 41rem;
+    }
+    .d2{
+        /* border: 2px solid green; */
+        height: 8rem;
+        width: 20rem;
+        text-align: center;
+        /* after i put width to 100% try putting the words respnsive */
+        margin-left: 6rem;
+        /* display: flex; */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color:white;
+    }
+    .patners{
+        margin-left: 11rem;
+    }
+    .patners-card{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3,1fr);
+        background-color: inherit;
+        /* align-items: center;
+        margin-top:12px;
+        margin-bottom: 4rem; 
+         justify-items: center; */
+    }
+    .patners-card-name{
+        display: inline-flex;
+        border: 1px solid rgb(124, 24, 24);
+        box-shadow: 1px 2px maroon;
+    }
+    .faq{
+        margin-left: 11rem;
+    }
+    .sector{
+        width: 28rem;
+        margin-left: 2rem;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+ }
+ @media (max-width: 543.64px){
+    .sector{
+        width: 22rem;
+        margin-left: 2rem;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+ }
+ @media (max-width:510px){
+    .box4{
+        height: 57rem;
+        width: 20rem;
+        /* float: right; */
+        position: relative;
+        margin-top: 3rem;
+        margin-right: 0rem;
+        margin-bottom: 6rem;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feature{
+        margin-top: 59.5rem;
+    }
+    .c2{
+        margin-left: 1rem;
+    }
+    .c4{
+        /* border: 2px solid saddlebrown ;     */
+        height: 23rem;
+        width: 24rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        /* float: right; */
+        position: relative;
+        /* margin-top: 3rem; */
+        margin-left: 3rem;
+        right: 38%;
+        transform: translateX(50%);
+        /* object-fit: contain;
+        object-position: center;
+        background-image: url(images/pica.jpg); */
+    } 
+    .projects{
+        margin-top: 23rem;
+        margin-left: 11rem;
+    }  
+    .d2{
+        margin-left: 2rem;
+    }
+    .d4{
+        left: 40%;
+        transform: translateX(-50%);
+    }
+ }
