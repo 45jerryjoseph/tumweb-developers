@@ -647,6 +647,8 @@ footer{
 }
 .patners-card-name{
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
     border-right: 1px solid rgb(124, 24, 24);
 }
 .patners-card-name i{
@@ -754,12 +756,120 @@ footer{
 /* end of sidenav styles */
 
 /* media queries */
+/* @media screen , (max-width:1087.28px){
+
+
+} it can also be placed in this format */
+@media (max-width:1087.30px){
+    .projects{
+        /* margin-top: 23rem; */
+        margin-left: 45rem;
+    } 
+    .patners{
+        margin-left: 25rem;
+    }
+    .faq{
+        margin-left: 25rem;
+    }
+    .sector{
+        width: 45rem;
+        margin-left: 2rem;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .registration-log  ,.registration-sign {
+       /* font-size: small; */
+       width: 3.5rem;
+       padding: 8px;
+    }
+}
+@media (max-width:940px){
+    .box4{
+        height: 22rem;
+        width: 30rem;
+        /* float: right; */
+        /* position: relative; */
+        margin-top: 3rem;
+        /* margin-right: 5rem; */
+        margin-bottom: 3rem;
+        /* left: 15%;
+        transform: translateX(-50%); */
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .feature{
+        margin-top: 23rem;
+    }
+    .projects{
+        /* margin-top: 23rem; */
+        margin-left: 41rem;
+    } 
+    .patners{
+        margin-left: 22rem;
+    }
+    .faq{
+        margin-left: 22rem;
+    }
+    .d2{
+        margin-left: 28rem;
+        /* right:10%; */
+    }
+}
+@media (max-width:887.27px){
+    .navigator ul{
+        display: none;
+    }
+    .projects{
+        /* margin-top: 23rem; */
+        margin-left: 39rem;
+    } 
+}
+@media (max-width:830.91px){
+    .c2{
+        margin-left: 2rem;
+    }
+}
+@media (max-width:818.18px){
+    .projects{
+        /* margin-top: 23rem; */
+        margin-left: 34rem;
+    } 
+    .patners{
+        margin-left: 20rem;
+    }
+    .faq{
+        margin-left: 19.5rem;
+    }
+    .d2{
+        margin-left: 25rem;
+        /* right:10%; */
+    }
+}
+@media (max-width:797.27px){
+    .sector{
+        width: 38rem;
+        margin-left: 2rem;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .c2{
+        height: 15rem;
+        width: 17rem;
+        margin-left: 2rem;
+    }
+    .c4{
+        margin-top: -24rem;
+    }
+}
 @media  (max-width:768px) {
-    .navigator{
-        /* display: none; */
+    /* .navigator{
+        display: none;
         float: left;
         z-index: 4;
-    }
+    } */
     #navigator_bar{
         display: inline;
         margin: 7px;
@@ -922,7 +1032,10 @@ footer{
     }
     .patners-card-name{
         display: inline-flex;
-        border: 1px solid rgb(124, 24, 24);
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.877);
+        border: 2px solid rgb(124, 24, 24);
         box-shadow: 1px 2px maroon;
     }
     .faq{
@@ -1002,21 +1115,21 @@ footer{
     .patners{
         margin-left: 11rem;
     }
-    .patners-card{
+    /* .patners-card{
         display: grid;
         grid-gap: 10px;
         grid-template-columns: repeat(3,1fr);
         background-color: inherit;
-        /* align-items: center;
+        align-items: center;
         margin-top:12px;
         margin-bottom: 4rem; 
-         justify-items: center; */
-    }
-    .patners-card-name{
+         justify-items: center;
+    } */
+    /* .patners-card-name{
         display: inline-flex;
         border: 1px solid rgb(124, 24, 24);
         box-shadow: 1px 2px maroon;
-    }
+    } */
     .faq{
         margin-left: 11rem;
     }
