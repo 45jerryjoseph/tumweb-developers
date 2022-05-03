@@ -3,6 +3,7 @@
     padding: 0;
 }
 .body{
+    margin: 0;
     padding: 0;
 }
 /* headers styles */
@@ -188,7 +189,7 @@ footer{
 }
 .upper-footer-1{
     flex: 1;
-    padding-right: 5rem;
+    padding-left: 2rem;
     /* border: 3px solid blue; */
     
 }
@@ -1152,7 +1153,7 @@ footer{
  }
  @media (max-width:510px){
     .box4{
-        height: 57rem;
+        height: 77rem;
         width: 20rem;
         /* float: right; */
         position: relative;
@@ -1164,7 +1165,7 @@ footer{
         grid-template-columns: repeat(1,1fr);
     }
     .feature{
-        margin-top: 59.5rem;
+        margin-top: 79.5rem;
     }
     .c2{
         margin-left: 1rem;
@@ -1196,4 +1197,113 @@ footer{
         left: 40%;
         transform: translateX(-50%);
     }
+ }
+ @media (max-width:461.82px){
+    
+    .upper-footer{
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        grid-gap:2rem;
+        margin: 6rem;
+        /* align-items: center;
+        justify-content: center; */
+        /* border: 3px solid blue; */
+    
+    }
+    .upper-footer-1{
+        padding-left: 0rem;
+        /* border: 3px solid blue; */
+        
+    }
+    .faq{
+        margin-left: 8rem;
+    }
+    .patners{
+        margin-left: 8rem;
+    }
+   
+ }
+ @media (max-width:430.91px){
+    /* .part5{
+        padding: 3rem;
+    } */
+     .patners{
+         margin-left: 7rem;
+     }
+     .patners-card{
+        grid-template-columns: repeat(2,1fr);
+        /* border: 2px solid red; */
+     
+    }
+     .faq{
+         margin-left: 7rem;
+     }
+     .sector{
+        width: 19rem;
+     }
+     .d2{
+        margin-left: 0rem;
+    }
+    .d3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* grid-gap:2rem; */
+        
+        
+    }
+    .d3-left{
+        display: none;
+    }
+    .d3-right{
+        margin-left: 0px;
+    }
+    .projects{
+        margin-left: 7rem;
+    }
+    .e2{
+        margin-left: 1rem;
+        height: 5rem;
+        /* border: 2px solid red; */
+    }
+    .e3{
+        height: 26rem;
+    }
+    .e3-card{
+        height: 14rem;
+    }
+    .d4{
+        left: 34%;
+        transform: translateX(-50%);
+    }
+    .c4{
+        right: 35%;
+        transform: translateX(50%);
+    }
+ }
+ @media (max-width:415.15px){
+     .box1, .c1 ,.d1{
+        font-size: 24px;
+     }
+ }
+ @media (max-width:410px){
+     body{
+         font-size: small;
+        /* border: 3px solid green; */
+         /* padding: 0; */
+     }
+     .c4,.d4{
+         width: 23rem;
+     }
+     .org-name-container{
+        margin-left: 2rem;
+        /* border: 2px solid red; */
+    }
+    .sector{
+        margin-left: 0rem;
+    }
+    /* #header{
+        width: auto;
+        border: 2px solid red;
+
+    } */
  }
