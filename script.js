@@ -53,4 +53,10 @@ function Changer(){
    
 
 }
+function mysidenav(){
+    const side = document.getElementsByClassName('sidenav');
+    for(let p=0; p < side.length; ++p){
+        side[p].classList.toggle('show');
+    }
+}
 // seems ive forgot alot on there interactions start from here now.
